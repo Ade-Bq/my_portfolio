@@ -1,69 +1,81 @@
 * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
 }
 
-body{
-    margin: auto;
-    padding: 5% 5% 10% 5%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgba(222, 184, 135, 0.993);
+.part{
+    width: 100%;
+    height: 100vh;
+    background: wheat;
+    background-image: url(../Images/B.jpg);
     background-size: cover;
+    background-position: center;
 }
 
-header{
-    color: rgb(47, 11, 104);
-    text-transform: uppercase;
-    position: fixed;
+nav{
     display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 45px 8%;
     align-items: center;
-    
+    justify-content: space-between;
 }
 
-ul{
+h2:hover{
+color: blanchedalmond;
+}
+
+nav ul li{
+    display: inline-block;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px 20px;
 }
 
-li{
-    display: inline;
-    margin: 20px;
-    padding: 20px;
-}
-
-li a{
+nav ul li a{
     text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
-li a:hover{
-    background-color: brown;
+nav ul li a:hover{
+    color: chartreuse;
 }
 
 .about{
-    padding-top: 120px;
-    text-align: center;
-    height: 300px;
-    width: 40%;
+    margin-left: 8%;
+    margin-top: 15%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translateY(-50%);
 }
 
-.image{
-    /* max-width: 100%; */
-    width: 40%;
-    height: 300px;
-    margin: auto;
-    padding: 0% 0% 0% 0%;
-    border-radius: 50%;
-    margin-top: 5%;
-    float: right;
-    /* opacity: 80%; */
+h1{
+    font-size: 40px;
+    color: brown;
+    margin: 20px 0px 20px;
 }
 
-.experience{
-    padding-top: 80px;
-    text-align: center;
+span{
+    color: black;
 }
 
-.portfolio{
-    padding-top: 80px;
-    text-align: center;
+
+/* .img{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+}
+
+.img:hover{
+    left: 45%;
+} */
+
+footer{
+    margin-bottom: 50px;
 }
